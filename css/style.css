@@ -203,9 +203,6 @@ blockquote strong {
   font-weight: 700;
 }
 
-
-
-
 .light {
     font-weight: 400;
 }
@@ -414,6 +411,27 @@ Navigation
     outline: 0;
 }
 
+.dropdown-submenu{
+	list-style-type: none;
+}
+
+.dropdown-submenu > li > a{
+	font-size: 12px !important;
+}
+
+/* Whatsapp */
+
+.whatsapp__a {
+ z-index: 1;
+  position: fixed; 
+  top: 70vh;
+  right: 2rem;
+}
+
+.whatsapp__img{
+	width: 5rem;
+  border-radius: 100%;
+}
 
 /* form */
 
